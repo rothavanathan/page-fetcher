@@ -1,0 +1,22 @@
+{
+  "name": "page-fetcher",
+  "version": "1.0.0",
+  "description": "get requests a command line argument and saves file",
+  "main": "fetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rothavanathan/page-fetcher.git"
+  },
+  "author": "Romesh Thavanathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rothavanathan/page-fetcher/issues"
+  },
+  "homepage": "https://github.com/rothavanathan/page-fetcher#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
