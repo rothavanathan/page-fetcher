@@ -15,7 +15,10 @@ const writeFile = (filename, body) => {
   fs.writeFile(filename, body, (err) => {
     //handle error on write
     if (err) throw err;
-    console.log(`Downloaded and saved ${body.length} bytes to ${filename}`);
+    fs.stat(filename, (err, file) => {
+      if (err) throw err;
+      console.log(`Downloaded and saved ${file.size} bytes to ${filename}`);
+    })
   });
 };
 
